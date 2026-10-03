@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fransish Soren — creative frontend developer portfolio." />
+  <title>Fransish — Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-mark">F<span>.</span></div>
+  </div>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <header class="header" id="header">
+    <a href="#home" class="logo"><span class="logo-mark"><i class="fa-solid fa-code"></i></span>FRANSISH<span
+        class="accent">.</span></a>
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-noise"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Creative frontend developer</p>
+        <h1>Hi, I'm <strong>Fransish.</strong><br><span class="typing" id="typing"></span><span class="caret">|</span>
+        </h1>
+        <p class="hero-text">I turn ideas into fast, responsive and memorable digital experiences with clean code and
+          thoughtful motion.</p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-primary">Explore Work <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#contact" class="btn btn-ghost">Let's Talk</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal reveal-right">
+        <div class="image-frame">
+          <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=85"
+            alt="Creative workspace" />
+          <div class="frame-glow"></div>
+        </div>
+        <div class="floating-card card-one"><i
+            class="fa-solid fa-wand-magic-sparkles"></i><span>Creative<br><b>Solutions</b></span></div>
+        <div class="floating-card card-two"><strong>04+</strong><span>Years<br>Learning</span></div>
+        <div class="hero-orbit"></div>
+      </div>
+      <div class="hero-meta">
+        <div><small>Email</small><span>fransishsoren@gmail.com</span></div>
+        <div><small>Based in</small><span>Bangladesh · Remote</span></div>
+        <div><small>Available</small><span class="available"><i></i> For selected projects</span></div>
+      </div>
+      <a href="#about" class="scroll-hint"><span>Scroll to explore</span><i class="fa-solid fa-arrow-down"></i></a>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-head reveal"><span class="section-number">01</span>
+        <div>
+          <p class="eyebrow">Who I am?</p>
+          <h2>Design-minded developer<br><span>with a builder's mindset.</span></h2>
+        </div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <!-- <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=800&q=85" alt="Portrait placeholder" /> -->
+           <img src="profile.jpg" alt="">
+          <div class="image-label">CWF / 2026</div>
+        </div>
+        <div class="about-copy reveal reveal-right">
+          <p class="lead">I’m Fransish Soren, a frontend developer focused on modern interfaces, responsive systems and
+            polished interactions.</p>
+          <p>I enjoy taking a rough idea and shaping it into a clear digital product. My work blends semantic HTML,
+            scalable CSS and purposeful JavaScript with a strong eye for spacing, typography and visual hierarchy.</p>
+          <div class="about-facts">
+            <div><span>Name</span><b>Fransish Soren</b></div>
+            <div><span>Role</span><b>Frontend Developer</b></div>
+            <div><span>Focus</span><b>Web UI / UX</b></div>
+            <div><span>Stack</span><b>HTML · CSS · JS</b></div>
+          </div>
+          <a href="#contact" class="text-link">Start a conversation <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-head reveal"><span class="section-number">02</span>
+        <div>
+          <p class="eyebrow">What I do</p>
+          <h2>Services built around<br><span>useful experiences.</span></h2>
+        </div>
+      </div>
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div><span>01</span>
+          <h3>Web Development</h3>
+          <p>Responsive websites with clean structure, accessible components and maintainable code.</p><a
+            href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div><span>02</span>
+          <h3>UI / UX Design</h3>
+          <p>Simple interfaces with strong hierarchy, intentional spacing and conversion-friendly flows.</p><a
+            href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div><span>03</span>
+          <h3>Responsive Design</h3>
+          <p>Layouts that feel natural across mobile, tablet, laptop and large-screen displays.</p><a href="#contact"><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-bolt"></i></div><span>04</span>
+          <h3>Micro Interactions</h3>
+          <p>Subtle motion, hover states and transitions that add personality without slowing the experience.</p><a
+            href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-gauge-high"></i></div><span>05</span>
+          <h3>Performance</h3>
+          <p>Lean frontends and practical optimization for faster loading and smoother interaction.</p><a
+            href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div><span>06</span>
+          <h3>Creative Builds</h3>
+          <p>Distinct landing pages and portfolio experiences designed to make a memorable first impression.</p><a
+            href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="skills-grid">
+        <div class="reveal"><span class="section-number">03</span>
+          <p class="eyebrow">My toolkit</p>
+          <h2>Tools I use to turn<br><span>ideas into interfaces.</span></h2>
+          <p class="muted">A practical frontend toolkit built around the fundamentals, with room to experiment and learn
+            new technologies.</p>
+        </div>
+        <div class="skill-list reveal reveal-right">
+          <div class="skill">
+            <div><span>HTML / Accessibility</span><b>95%</b></div><i><em style="width:95%"></em></i>
+          </div>
+          <div class="skill">
+            <div><span>CSS / Responsive UI</span><b>92%</b></div><i><em style="width:92%"></em></i>
+          </div>
+          <div class="skill">
+            <div><span>JavaScript</span><b>84%</b></div><i><em style="width:84%"></em></i>
+          </div>
+          <div class="skill">
+            <div><span>Figma / UI Design</span><b>78%</b></div><i><em style="width:78%"></em></i>
+          </div>
+          <div class="skill">
+            <div><span>Git / GitHub</span><b>82%</b></div><i><em style="width:82%"></em></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+      <div class="section-head reveal"><span class="section-number">04</span>
+        <div>
+          <p class="eyebrow">Selected work</p>
+          <h2>A few things I've<br><span>built recently.</span></h2>
+        </div>
+      </div>
+      <div class="filters reveal"><button class="filter active" data-filter="all">All</button><button class="filter"
+          data-filter="web">Web</button><button class="filter" data-filter="ui">UI</button><button class="filter"
+          data-filter="js">JavaScript</button></div>
+      <div class="portfolio-grid">
+        <article class="project reveal" data-category="web"><img
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=85"
+            alt="Dashboard project">
+          <div class="project-info"><span>Web / 01</span>
+            <h3>Nova Analytics</h3>
+            <p>Dashboard interface</p><a href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </article>
+        <article class="project reveal" data-category="ui"><img
+            src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=85"
+            alt="UI design project">
+          <div class="project-info"><span>UI / 02</span>
+            <h3>Orbit Commerce</h3>
+            <p>Product experience</p><a href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </article>
+        <article class="project reveal" data-category="js"><img
+            src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1200&q=85"
+            alt="Mobile interface project">
+          <div class="project-info"><span>JavaScript / 03</span>
+            <h3>Pulse App</h3>
+            <p>Interactive prototype</p><a href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-box reveal">
+        <div><span class="section-number">05</span>
+          <p class="eyebrow">Have a project?</p>
+          <h2>Let's make something<br><span>people remember.</span></h2>
+        </div>
+        <div class="contact-side">
+          <p>Tell me what you're building, what you need, and where you'd like to take it. I’ll get back to you with the
+            next steps.</p><a class="btn btn-primary" href="mailto:hello@fransish.dev">fransishsoren@gmail.com<i
+              class="fa-solid fa-arrow-right"></i></a>
+             <div class="socials">
+               <a href="https://github.com/fransish-soren" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+               </a>
+               <a href="www.linkedin.com/in/fransish-soren" aria-label="LinkedIn">
+                 <i class="fa-brands fa-linkedin-in"></i>
+               </a>
+                <a href="https://www.youtube.com/@codewithFransish" aria-label="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+               </a>
+                <a href="https://www.facebook.com/share/1BxVqzRkv5/" aria-label="Facebook">
+                <i class="fa-brands fa-facebook"></i>
+               </a>
+                <a href="https://www.instagram.com/fransish_soren" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+               </a>
+              </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><a href="#home" class="logo">FRANSISH<span class="accent">.</span></a>
+    <p>Designed & coded with intention · © 2026 Fransish Soren</p><a href="#home" class="back-top">Back to top <i
+        class="fa-solid fa-arrow-up"></i></a>
+  </footer>
+  <script src="script.js">
+
+  </script>
+</body>
+
+</html>
